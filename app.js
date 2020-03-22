@@ -46,4 +46,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(PORT, () => console.log(`Listening on ${ PORT }, ${ process.env.DATABASE_URL}`))
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));

@@ -5,7 +5,7 @@ var usersModel = require('../model/users');
 
 router.get('/', function(req, res, next) {
   usersModel.getAll(function(err, allUsers) {
-    if (err) throw err;
+    if (err) console.log(err);
     console.log(allUsers);
     res.render('users', {
       title: 'View Users',
