@@ -1,0 +1,41 @@
+extends base
+
+block content
+
+  form
+    ul
+      li
+        label(for='name') Name:
+        input#name(type='text', name='name')
+      li
+        label(for='email') Email:
+        input#email(type='text', name='email')
+      li
+        label(for='age') Age:
+        input#age(type='number', name='age')
+      li
+        label(for='addres') Address:
+        input#address(type='text', name='address')
+      li
+        label(for='phone') Phone Number:
+        input#phone(type='text', name='phone')
+      li.button
+        button#button(type='button') Add User
+  #userDiv
+    p USERS:
+    table
+      thead
+        tr
+          th Name
+            span
+              img#sort-name-asc(src='/img/sort-ascending.png' alt='Sort in ascending order by name')
+              img#sort-name-des(src='/img/sort-descending.png' alt='Sort in descending order by name')
+          th Email
+            span
+              img#sort-email-asc(src='/img/sort-ascending.png' alt='Sort in ascending order by email')
+              img#sort-email-des(src='/img/sort-descending.png' alt='Sort in descending order by email')
+          th Age
+            span
+              img#sort-age-asc(src='/img/sort-ascending.png' alt='Sort in ascending order by age')
+              img#sort-age-des(src='/img/sort-descending.png' alt='Sort in descending order by age')
+      tbody#users

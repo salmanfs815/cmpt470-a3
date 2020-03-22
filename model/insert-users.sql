@@ -1,0 +1,4 @@
+INSERT INTO users (name, email, age, address, phone) VALUES ('John Doe', 'jdoe@example.com', 40, '123 Street Avenue, City, Province POSTCODE', '1234567890');
+INSERT INTO users (name, email, age, address, phone) VALUES ('Jane Doe', 'janed@example.ca', 35, '123 Street Avenue, City, Province POSTCODE', '1234567890');
+INSERT INTO users (name, email, age, address, phone) VALUES ('Alex Bobcat', 'alex@bobcat.net', 45, '321 Road St., City, Province POSTCODE', '1234567890');
+INSERT INTO users (name, email, age, address, phone) VALUES ('Cristina Ecklow', 'cristinaecklow@example.org', 50, '456 Avenue Blvd, A City, That Province POSTCODE', '0987654321');

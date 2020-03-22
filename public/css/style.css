@@ -1,0 +1,85 @@
+/* CSS inspired by: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form */
+
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+
+input {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+.button {
+  padding-left: 115px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+div {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+th, td { /* Email column */
+  width: 200px;
+}
+
+th:first-child, td:first-child { /* Name column */
+  width: 150px;
+}
+
+th:last-child, td:last-child { /* Age column */
+  width: 100px;
+}
+
+thead span {
+  float: right;
+  margin-right: 1em;
+}
+
+thead span img {
+  width: 1em;
+  margin-left: 5px;
+  padding: 1px;
+}
+
+img.sort-active {
+  border: 1px solid blue;
+}
